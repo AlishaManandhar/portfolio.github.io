@@ -1,0 +1,298 @@
+body {
+	font-family: sans-serif !important;
+	background-size: 100vw 100vh;
+	background-position: center;
+	background-attachment: fixed;	
+	background-image: linear-gradient(rgba(0,0, 0, 1), rgba(0, 0, 0,0.7)), url("../images/bg_img.jpg");
+	background-repeat: no-repeat;
+	position: relative;
+}
+#about,#services,#blogs,#clients{
+	height: 100%;
+	background-color: #121836;
+	padding-top: 150px;
+}
+/*intro starts here*/
+
+.container-fluid{
+	height: 100vh;
+}
+
+.mainlink{
+
+	font-size: 30px;
+	text-align: center;
+	color: white !important;
+	font-weight: bolder;
+}
+
+#navBar ul li a{
+	color: white !important;
+	font-weight: bolder;
+}
+
+#navBar ul li a:hover{
+	color: red !important;
+}
+
+.navbar{
+	padding-top: 20px;
+	position: sticky;
+	top: 0;
+	left: 0;
+}
+
+.contact{
+	padding: 10px;
+	border: 1px solid red;
+	color:red;
+}
+
+.profile-intro{
+	margin-top: 180px;
+}
+
+.profile-container{
+	width: 25vh;
+	height: 25vh;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.profile-container img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+#name {
+	font-size: 8vh;
+	font-weight: bold;
+	color: #ef4040;
+	margin-left: 40px;
+	margin-bottom: 0px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+#description {
+	color: white;
+	text-align: center;
+	font-size: 4vh;
+
+}
+
+
+
+/*intro ends here*/
+
+/************************about starts here**********************/
+
+
+
+section{
+	padding-bottom: 80px;
+}
+section h4{
+	color:#f75f33;
+}
+
+section h4, section h1{
+	letter-spacing: 1px;
+}
+
+#about h1::after,#services h1::after,#blogs h1::after{
+	display: block;
+	content: "";
+	height: 2px;
+	width: 50px;
+	background-color: #ff744c;
+	margin-top: 10px;
+
+}
+ 	
+#about-me{
+	margin: 30px 0;
+	color: #b2c3d5;
+	line-height: 1.8;
+	letter-spacing: 1px;
+	font-size: 2.2vh;
+}
+
+#about-me-specs{
+	border: 3px solid #ff744c;
+	margin-left: 3px;
+	padding: 23px; 
+	color: #b2c3e5;
+	letter-spacing: 1px;
+	font-size: 2.2vh;
+}
+
+#cv{
+	background-color:  #ff744c;
+	color: white;
+	text-transform: uppercase;
+	margin-top: 30px;
+	padding: 15px 15px;
+}
+
+#cv:hover{
+	transition: 0.3s;
+	background-color: #d13002;
+}
+/************************about ends here***********************/
+.service-specs{
+	margin-top: 50px;
+
+}
+.service-box{
+	border: 2px solid #ff744c;
+	margin-left: 40px;
+	margin-bottom: 50px;
+	color: #b2c3e5;
+	letter-spacing: 1px;
+	font-size: 2.2vh;
+	padding: 30px;
+}
+.service-title{
+	font-weight: bold;
+	color:white;
+	font-size: 2.4vh;
+}
+
+.icon{
+	color:#ff744c;
+	display: inline-block;
+	font-size: 2.4vw;
+	margin-bottom: 20px;
+}
+
+/************************services ends here***********************/
+
+.blog-specs{
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.blog-box{
+	color: #b2c3e5;
+	letter-spacing: 1px;
+	font-size: 2.2vh;
+	border-left: 1px solid rgba(99, 93, 93,0.2);
+	border-right: 1px solid rgba(99, 93, 93,0.2);
+	border-bottom: 1px solid #ff744c;
+	margin-right: 30px;
+	padding: 0;
+}
+.blog-box img{
+	height: 400px;
+	object-fit: cover;
+	width: 100%;
+}
+.blog-link{
+	border: 1px solid #ff744c;
+	color: #ff744c;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.blog-content a:hover{
+	
+	color: red;
+	transition: 0.3s;
+	border: 1px solid red;
+	
+}
+
+.blog-content{
+	padding: 20px 15px;
+}
+
+.blog-title{
+	color: white;
+	font-weight: 2vh;
+	border-bottom: 1px solid rgba(99, 93, 93,0.2);
+	padding-bottom: 5px;
+}
+
+
+
+.blog-description{
+	padding-right: 30px;
+}
+
+#posts{
+	background-color:  #ff744c;
+	color: white;
+	text-transform: uppercase;
+	margin-top: 50px;
+	padding: 10px 5px;
+	font-size: 2.1vh;
+	
+	display: inline-block;
+}
+
+#posts:hover{
+	transition: 0.3s;
+	background-color: #d13002;
+}
+#clients h1::after{
+	display: block;
+	content: "";
+	height: 2px;
+	width: 50px;
+	background-color: #ff744c;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+.client-box{
+	border: 1px solid #ff744c;
+	margin-top: 80px;
+	padding: 30px;
+}
+
+.client-icon{
+	color:#ff744c;
+	display: inline-block;
+	font-size: 9vh;
+	font-weight: normal;
+
+	
+}
+.image-holder{
+	width: 12vh;
+	height: 12vh;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.image-holder img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.client-name{
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	width: 180px;
+	margin: 0 auto;
+}
+
+.client-profession{
+	text-align: center;
+	width: 180px;
+	margin: 5px auto;
+	color:#ff744c;
+}
+
+.review{
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+}
